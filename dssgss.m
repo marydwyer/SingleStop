@@ -92,10 +92,18 @@ while i <= totalenrolled
     end
 i = i+1;
 end
-notnum
+notnum;
 pn = notnum/totalenrolled * 100;
 
-results = table(p1,p2,p3,p4,p5,p6,pn)
+angle1 = p1/100 * 90;
+angle2 = p2/100 * 90;
+angle3 = p3/100 * 90;
+angle4 = p4/100 * 90;
+angle5 = p5/100 * 90;
+angle6 = p6/100 * 90;
+anglen = pn/100 * 90;
+
+results = table(angle6, angle5, anglen, angle4, angle2, angle3,angle1)
 
 
 
